@@ -1,29 +1,3 @@
-//var http=require('http');
-//var cheerio=require('cheerio');
-////var mongoClient=require('mongodb').MongoClient;
-////var dburl='mongodb://localhost:27017';
-//var url='http://news.baidu.com/';
-//var arr=[];
-//http.get(url,function(response){
-//    var str=''
-//    response.on('data',function(a){
-//        str+=a;
-//    });
-//    response.on('end',function(){
-//        const $=cheerio.load(str,{decodeEntities: false});
-//        $('.hotnews li a').each(function(key,val){
-//            //console.log(key,val)
-//            arr.push({
-//                'title':$(this).html(),
-//                'address':$(this).attr('href')
-//            });
-//        })
-//        console.log(arr);
-//        http.creatSever()
-//
-//
-//    })
-//})
 var http=require('http');
 var https=require('https');
 var url=require('url');
