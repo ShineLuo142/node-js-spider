@@ -7,6 +7,6 @@
         cheerio模块使用：https://www.npmjs.com/package/cheerio
 #### 第四步：利用Mongodb连接数据库将爬取到的数据存入数据库。（注意：异步使用匿名自执行函数）
         mangodb官网：https://www.mongodb.com/
-        mangodb手册：https://docs.mongodb.org/manual/
+        mangodb手册：http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/
 #### 第五步：通过ejs模板引擎将爬取的数据写入前端页面，具体查看spider-load-in-web.js。
         ejs模板使用：https://www.npmjs.com/package/ejs
